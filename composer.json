@@ -1,0 +1,24 @@
+{
+    "name": "thealgoslingers/php-rtf-to-pdf",
+    "description": "This package can convert rtf file to pdf",
+    "keywords": ["library","rtf", "algoslingfileanew", "rtf to pdf","rtf to pdf converter","convert rtf"],
+    "type": "library",
+    "require-dev": {
+    "phpunit/phpunit": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thealgoslingers"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thealgoslingers\\": "src"
+        }
+    },
+    "require": {
+      "henck/rtf-to-html": "^1.2",
+      "tecnickcom/tcpdf": "^6.6"
+    }
+}
